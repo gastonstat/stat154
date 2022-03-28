@@ -21,8 +21,8 @@ Then we discuss the concept of data as a set ob objects or individuals on which 
 measured. More specifically, we do this from a decisive geometric perspective.
 
 :book: __READING__: 
-- [CSL Chapter 2: Introduction](https://allmodelsarewrong.github.io/intro.html)
-- [CSL Chapter 3: Geometric Duality](https://allmodelsarewrong.github.io/duality.html)
+- [CSL: Introduction](https://allmodelsarewrong.github.io/intro.html)
+- [CSL: Geometric Duality](https://allmodelsarewrong.github.io/duality.html)
 
 :speech_balloon: __TOPICS__:
 + __Preamble for PCA__
@@ -41,7 +41,7 @@ Simply put, PCA allows us to study the systematic structure of a data set (of qu
 Although PCA can be approached from multiple angles, we focus on its geometric perspective.
 
 :book: __READING__: 
-- [CSL Chapter 4: Principal Component Analysis](https://allmodelsarewrong.github.io/pca.html)
+- [CSL: Principal Component Analysis](https://allmodelsarewrong.github.io/pca.html)
 
 :speech_balloon: __TOPICS__:
 
@@ -69,9 +69,9 @@ learning methods. We will study the general regression framework by paying atten
 geometric aspects, while postponing the discussion of the learning elements for later (to be covered in Concepts of Learning Theory).
 
 :book: __READING__: 
-- [CSL Chapter 5: Linear Reregssion](https://allmodelsarewrong.github.io/ols.html)
-- [CSL Chapter 6: Gradient Descent](https://allmodelsarewrong.github.io/gradient.html)
-- [CSL Chapter 7: Regression via Maximum Likelihood](https://allmodelsarewrong.github.io/olsml.html)
+- [CSL: Linear Reregssion](https://allmodelsarewrong.github.io/ols.html)
+- [CSL: Gradient Descent](https://allmodelsarewrong.github.io/gradient.html)
+- [CSL: Regression via Maximum Likelihood](https://allmodelsarewrong.github.io/olsml.html)
 
 :speech_balloon: __TOPICS__:
 - __Introduction to Linear Regression__
@@ -94,9 +94,9 @@ How do we measure the learning ability of a machine/model? We will also talk abo
 Learning theory: model performance, bias-variance tradeoff, overfitting, validation, and model selection.
 
 :book: __READING__: 
-- [CSL Chapter 8: Theoretical Framework](https://allmodelsarewrong.github.io/learning.html)
-- [CSL Chapter 9: MSE Estimator](https://allmodelsarewrong.github.io/mse.html)
-- [CSL Chapter 10: Bias-Variance Tradeoff](https://allmodelsarewrong.github.io/biasvar.html)
+- [CSL: Theoretical Framework](https://allmodelsarewrong.github.io/learning.html)
+- [CSL: MSE Estimator](https://allmodelsarewrong.github.io/mse.html)
+- [CSL: Bias-Variance Tradeoff](https://allmodelsarewrong.github.io/biasvar.html)
 
 :speech_balloon: __TOPICS__:
 - __A framework for Supervised Learning__
@@ -120,9 +120,9 @@ How do we measure the learning ability of a machine/model? We will also talk abo
 Learning theory: model performance, bias-variance tradeoff, overfitting, validation, and model selection.
 
 :book: __READING__: 
-- [CSL Chapter 11: Overfitting](https://allmodelsarewrong.github.io/overfit.html)
-- [CSL Chapter 12: Learning Phases](https://allmodelsarewrong.github.io/phases.html)
-- [CSL Chapter 13: Resampling Approches](https://allmodelsarewrong.github.io/resampling.html)
+- [CSL: Overfitting](https://allmodelsarewrong.github.io/overfit.html)
+- [CSL: Learning Phases](https://allmodelsarewrong.github.io/phases.html)
+- [CSL: Resampling Approches](https://allmodelsarewrong.github.io/resampling.html)
 
 :speech_balloon: __TOPICS__:
 - __Overfitting__
@@ -143,9 +143,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 :speaker: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
 
 :book: __READING__: 
-- [CSL Chapter 14: Regularization Techniques](https://allmodelsarewrong.github.io/regular.html)
-- [CSL Chapter 15: Principal Components Regression](https://allmodelsarewrong.github.io/pcr.html)
-- [CSL Chapter 16: Partial Least Squares Regression](https://allmodelsarewrong.github.io/pls.html)
+- [CSL: Regularization Techniques](https://allmodelsarewrong.github.io/regular.html)
+- [CSL: Principal Components Regression](https://allmodelsarewrong.github.io/pcr.html)
+- [CSL: Partial Least Squares Regression](https://allmodelsarewrong.github.io/pls.html)
 
 :speech_balloon: __TOPICS__:
 - __Issues with Least Squares__
@@ -163,12 +163,37 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 :speaker: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
 
 :book: __READING__: 
-- [CSL Chapter 16: Ridge Regression](https://allmodelsarewrong.github.io/ridge.html)
-- [CSL Chapter 17: Lasso Regression](https://allmodelsarewrong.github.io/lasso.html)
+- [CSL: Ridge Regression](https://allmodelsarewrong.github.io/ridge.html)
+- [CSL: Lasso Regression](https://allmodelsarewrong.github.io/lasso.html)
 
 :speech_balloon: __TOPICS__:
 - __Regularization via Penalized methods__
     + Ridge Regression (RR)
     + Other methods: lasso, elastic net, and cousins
     + Geometries of penalized parameters
+
+
+-----
+
+## 8. Regression: Moving Beyond Linearity (time permitting)
+
+:speaker: __ABOUT__: Linear models can be quite useful but they have some limitations that force us to move beyond linearity. The main idea in this section is to relax the linearity assumption while still trying to obtain interpretable models. We’ll learn about various approaches that allow us to augment/replace the input variables with an array of transformations such as polynomial regression, step functions, splines, local regression, RBF, etc.
+
+:book: __READING__: 
+- [CSL: Beyond Linear Regression](https://allmodelsarewrong.github.io/linear-extensions.html)
+- [CSL: Basis Expansion](https://allmodelsarewrong.github.io/basis.html)
+- [CSL: Nonparametric Regression](https://allmodelsarewrong.github.io/nonparametric.html)
+- [CSL: Nearest Neighbors Estimates](https://allmodelsarewrong.github.io/knn.html)
+- [CSL: Kernel Smoothers](https://allmodelsarewrong.github.io/kernel-smoothers.html)
+
+:speech_balloon: __TOPICS__:
+- __Limitation of linear models, and notion of linearity__
+    + Some nonlinear approaches
+    + Polynomial regression
+    + Stepwise regression
+    + Basis functions (basis-expansion)
+    + Splines
+    + Local regression
+    + Radial Basis Functions
+
 
