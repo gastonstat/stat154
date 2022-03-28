@@ -16,13 +16,13 @@
 
 ## 1. Principal Components Analysis (PCA)
 
-:speaker: __About__ We begin with Principal Components Analysis, one of the unsupervised learning topics of this course. Simply put, PCA allows us to study the systematic structure of a data set (of quantitative variables). Although PCA can be approached from multiple perspectives, we will approach it from a data visualization perspective, and a decisive geometric flavor.
+:speaker: __ABOUT__ We begin with Principal Components Analysis, one of the unsupervised learning topics of this course. Simply put, PCA allows us to study the systematic structure of a data set (of quantitative variables). Although PCA can be approached from multiple perspectives, we will approach it from a data visualization perspective, and a decisive geometric flavor.
 
-:book: __Reading__: 
+:book: __READING__: 
 - CSL Chapter 1: Introduction
 - CSL Chapter 2: Geometric Duality
 
-:speech_balloon: __Topics__
+:speech_balloon: __TOPICS__
 + __Preamble for PCA__
 	- The duality of the data matrix: rows (individuals) and columns (variables)
 	- Common operations for individuals: the average individual, distance between individuals, multivariate dispersion, and inertia
@@ -32,14 +32,12 @@
 	- PCA solution with EVD of cross-products XTX and XXT
 
 + __Application of PCA (anatomy of PCA solution)__
-
 	- How many components to retain? 
 	- How can a component be interpreted?
 	- What visualizations can be obtained, and how to read them?
 	- Some practical considerations
 
 + __Digression on Matrix Decompositions__
-
 	- Matrix decompositions: Eigenvalue Decomposition (EVD)
 	- Singular Value Decomposition (SVD) and lower rank approximations
 	- Relationship between EVD and SVD
