@@ -15,9 +15,7 @@
 
 ## 1. Principal Components Analysis (PCA)
 
-:speech_balloon: __Topics__ 
-
-We begin with Principal Components Analysis, one of the unsupervised learning topics of this course. Simply put, PCA allows us to study the systematic structure of a data set (of quantitative variables). Although PCA can be approached from multiple perspectives, we will approach it from a data visualization perspective, and a decisive geometric flavor.
+:speech_balloon: __Topics__ We begin with Principal Components Analysis, one of the unsupervised learning topics of this course. Simply put, PCA allows us to study the systematic structure of a data set (of quantitative variables). Although PCA can be approached from multiple perspectives, we will approach it from a data visualization perspective, and a decisive geometric flavor.
 
 :book: __Reading__: 
 - CSL Chapter 1: Introduction
