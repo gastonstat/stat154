@@ -112,7 +112,7 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 -----
 
-## 6. Concepts of Learning Theory (part 2)
+## 5. Concepts of Learning Theory (part 2)
 
 :speaker: __ABOUT__: In this part of the course we review the notion of Learning (from a supervised point of view) 
 and other related concepts: What are the conceptual pieces of a learning problem? What do we mean by learning? 
@@ -134,3 +134,41 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
     + Three-way holdout frmework
     + Cross-Validation: k-fold CV, leave-one-out CV
     + Some general considerations
+
+
+-----
+
+## 6. Linear Regression: Regularization Methods (part 1)
+
+:speaker: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
+
+:book: __READING__: 
+- [CSL Chapter 14: Regularization Techniques](https://allmodelsarewrong.github.io/regular.html)
+- [CSL Chapter 15: Principal Components Regression](https://allmodelsarewrong.github.io/pcr.html)
+- [CSL Chapter 16: Partial Least Squares Regression](https://allmodelsarewrong.github.io/pls.html)
+
+:speech_balloon: __TOPICS__:
+- __Issues with Least Squares__
+    + Issues with OLS and potential solutions (postponed from OLS regression)
+    + Multicollinearity issues (postponed from OLS regression)
+- __Regularization via Dimension Reduction methods__
+    + Principal Components Regression (PCR)
+    + Partial Least Squares Regression (PLSR)
+
+
+-----
+
+## 7. Linear Regression: Regularization Methods (part 2)
+
+:speaker: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
+
+:book: __READING__: 
+- [CSL Chapter 16: Ridge Regression](https://allmodelsarewrong.github.io/ridge.html)
+- [CSL Chapter 17: Lasso Regression](https://allmodelsarewrong.github.io/lasso.html)
+
+:speech_balloon: __TOPICS__:
+- __Regularization via Penalized methods__
+    + Ridge Regression (RR)
+    + Other methods: lasso, elastic net, and cousins
+    + Geometries of penalized parameters
+
