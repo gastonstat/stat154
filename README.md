@@ -6,7 +6,7 @@
 - Midterm Exam: week 8
 - Final: week 16
 - Primary textbook:
-    + CSL: Concepts of Statistical Learning (by Sanchez and Marzban, 2019)
+    + [CSL: Concepts of Statistical Learning](https://allmodelsarewrong.github.io/) (by Sanchez and Marzban, 2019)
 - Secondary texts: 
     + ISL: An Introduction to Statistical Learning (by James et al, 2015)
     + ESL: The Elements of Statistical Learning (by Hastie et al, 2009)
@@ -19,8 +19,8 @@
 :speaker: __ABOUT__: We begin with some preliminary concepts and an overview of Statistical Learning methods. Then we discuss the concept of data as a set ob objects or individuals on which one or more variables have been measured. More specifically, we do this from a decisive geometric perspective.
 
 :book: __READING__: 
-- CSL Chapter 2: Introduction
-- CSL Chapter 3: Geometric Duality
+- [CSL Chapter 2: Introduction](https://allmodelsarewrong.github.io/intro.html)
+- [CSL Chapter 3: Geometric Duality](https://allmodelsarewrong.github.io/duality.html)
 
 :speech_balloon: __TOPICS__:
 + __Preamble for PCA__
@@ -39,7 +39,7 @@ Simply put, PCA allows us to study the systematic structure of a data set (of qu
 Although PCA can be approached from multiple angles, we focus on its geometric perspective.
 
 :book: __READING__: 
-- CSL Chapter 4: Principal Component Analysis
+- [CSL Chapter 4: Principal Component Analysis](https://allmodelsarewrong.github.io/pca.html)
 
 :speech_balloon: __TOPICS__:
 
@@ -64,8 +64,9 @@ Although PCA can be approached from multiple angles, we focus on its geometric p
 :speaker: __ABOUT__: After PCA we shift gears to supervised learning methods that have to do with predicting a quantitative response. We begin with Linear Regression models which are the stepping stone for all supervised learning methods. We will study the general regression framework by paying attention to the algebraic and geometric aspects, while postponing the discussion of the learning elements for later (to be covered in Concepts of Learning Theory).
 
 :book: __READING__: 
-- CSL Chapter 5: Linear Reregssion
-- CSL Chapter 6: Gradient Descent
+- [CSL Chapter 5: Linear Reregssion](https://allmodelsarewrong.github.io/ols.html)
+- [CSL Chapter 6: Gradient Descent](https://allmodelsarewrong.github.io/gradient.html)
+- [CSL Chapter 7: Regression via Maximum Likelihood](https://allmodelsarewrong.github.io/olsml.html)
 
 :speech_balloon: __TOPICS__:
 - __Introduction to Linear Regression__
