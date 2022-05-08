@@ -17,7 +17,7 @@
 ## 1. Introduction and Preamble for PCA
 
 :speaker: __ABOUT__: We begin with some preliminary concepts and an overview of Statistical Learning methods. 
-Then we discuss the concept of data as a set ob objects or individuals on which one or more variables have been 
+Then we discuss the concept of data as a set of objects or individuals on which one or more variables have been 
 measured. More specifically, we do this from a decisive geometric perspective.
 
 :book: __READING__: 
