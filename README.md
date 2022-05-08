@@ -315,7 +315,7 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 14. Tree-Based Methods (part 2)
 
-:speaker: __ABOUT__: We introduce decision trees, which are one the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
+:speaker: __ABOUT__: We introduce decision trees, which are one of the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
 
 :book: __READING__: 
 - [CSL: Splitting Nodes](https://allmodelsarewrong.github.io/tree-splits.html)
@@ -330,3 +330,23 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
     + Node-splitting stopping criteria
     + Pruning a tree
     + Pros and cons of trees
+
+
+-----
+
+## 15. Ensemble Methods and Aggregation
+
+:speaker: __ABOUT__: We finish the course with so-called Ensemble methods (i.e. aggregating individual learners) such as baging, boosting, and random forests.
+
+:book: __READING__: 
+- [CSL: Bagging](https://allmodelsarewrong.github.io/bagging.html)
+- [CSL: Random Forests](https://allmodelsarewrong.github.io/forest.html)
+
+:speech_balloon: __TOPICS__:
+- __Bagging: bootstraop aggregating__
+    + Idea of bagging
+    + Advantages of bagging
+- __Random Forests__
+    + Idea of random forest
+    + Advantages of random forest
+
