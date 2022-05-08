@@ -262,5 +262,71 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
     + ROC Curves
 
 
+-----
+
+## 12. Clustering Methods
+
+:speaker: __ABOUT__: Simply put, Clustering has to do with finding groups in data. This is the second unsupervised topic of the course, covering partition methods as well as hierarchical agglomerative techniques.
+
+:book: __READING__: 
+- [CSL: Clustering](https://allmodelsarewrong.github.io/clustering.html)
+- [CSL: K-Means](https://allmodelsarewrong.github.io/kmeans.html)
+- [CSL: Hierarchical Clustering](https://allmodelsarewrong.github.io/hclus.html)
+
+:speech_balloon: __TOPICS__:
+- __Clustering__
+    + About clustering
+    + Dispersion measures
+    + Complesity in clustering
+- __Direct Partitioning Methods__
+    + Partitioning methods
+    + K-Means
+- __Hierarchical Clustering__
+    + Distances and Dissimilarities
+    + Single linkage
+    + Complete linkage
+    + Average linkage
+    + Centroid linkade
+    + Dendrograms
 
 
+-----
+
+## 13. Tree-Based Methods (part 1)
+
+:speaker: __ABOUT__: We introduce decision trees, which are one the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
+
+:book: __READING__: 
+- [CSL: Trees](https://allmodelsarewrong.github.io/trees.html)
+- [CSL: Binary Splits and Impurity](https://allmodelsarewrong.github.io/tree-impurities.html)
+
+:speech_balloon: __TOPICS__:
+- __Introduction to Trees__
+    + Terminology
+    + Tree diagrams
+- __Binary splits and impurity__
+    + Binary partitions
+    + Measures of impurity: Entropy
+    + Measures of impurity: Gini impurity
+    + Measures of impurity: Variance-based
+
+
+-----
+
+## 14. Tree-Based Methods (part 2)
+
+:speaker: __ABOUT__: We introduce decision trees, which are one the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
+
+:book: __READING__: 
+- [CSL: Splitting Nodes](https://allmodelsarewrong.github.io/tree-splits.html)
+- [CSL: Building Binary Trees](https://allmodelsarewrong.github.io/tree-basics.html)
+
+:speech_balloon: __TOPICS__:
+- __Splitting Nodes__
+    + Entropy-based splits
+    + Gini-impurity based splits
+    + Looking for the best split
+- __Building Binary Trees__
+    + Node-splitting stopping criteria
+    + Pruning a tree
+    + Pros and cons of trees
