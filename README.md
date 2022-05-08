@@ -28,7 +28,7 @@ measured. More specifically, we do this from a decisive geometric perspective.
 + __Preamble for PCA__
 	- The duality of the data matrix: rows (individuals) and columns (variables)
 	- Common operations for individuals: the average individual, distance between individuals, multivariate dispersion, and inertia
-	- Common operations for variables: variables as vectors, length of a vector, vector and scalar projections, angle between vectors, variance, covariance, correlation
+	- Common operations for variables: variables as vectors, length of a vector, vector and scalar projections, angle between vectors, mean, variance, covariance, and correlation
 
 
 -----
@@ -195,5 +195,72 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
     + Splines
     + Local regression
     + Radial Basis Functions
+
+
+-----
+
+## 9. Introduction to Classification
+
+:speaker: __ABOUT__: The other major type of supervised learning problems covered in this course has to do with classification methods: predicting a qualitative response. We begin with Logistic Regression which provides a nice bridge between linear regression and classification ideas.
+
+:book: __READING__: 
+- [CSL: Classification](https://allmodelsarewrong.github.io/classif.html)
+- [CSL: Basis Expansion](https://allmodelsarewrong.github.io/logistic.html)
+
+:speech_balloon: __TOPICS__:
+- __Introduction to Classification__
+    + The classification problem
+    + Limitations of the classic regression model
+    + Motivation for logistic transformation
+- __Logistic Regression__
+    + Model
+    + Error measure
+    + Algorithm(s)
+
+
+-----
+
+## 10. Discriminant Analysis (part 1)
+
+:speaker: __ABOUT__: An important kind of classification methods belong to a general framework known as Discriminant Analysis (DA). We start reviewing certain notions and formulas to measure total variation (or dispersion) in terms of a) variation within classes and b) variation between classes. Then we discuss Ronald Fisher's geometric approach commonly known as Canonical Discriminant Analysis. This method can be considered to be a classification with an unsupervised touch. 
+
+:book: __READING__: 
+- [CSL: Preamble for Discriminant Analysis](https://allmodelsarewrong.github.io/discrim.html)
+- [CSL: Canonical Discriminant Analysis](https://allmodelsarewrong.github.io/cda.html)
+
+:speech_balloon: __TOPICS__:
+- __Preamble for Discriminant Analysis__
+    + Total variation decomposition
+    + Variation within classes
+    + Variation between classes
+- __Canonical Discriminant Analysis (CDA)__
+    + CDA's semi-supervised approach
+    + CDA's supervised approach
+    + Limitations of CDA classifiers
+
+
+-----
+
+## 11. Discriminant Analysis (part 2) and Performance in Classification Methods
+
+:speaker: __ABOUT__: We continue the discussion of Discriminant Analysis (DA) with the so-called generative classification methods: Linear DA, Quadratic DA, and Naives Bayes. Then we move onto model performance with classification methods. Similar to what we did for regression models, we will discuss how to assess model performance in a classification setting. We will also talk about concepts like: confusion matrices, sensitivity and specificity, true positives and false positives, as well as Receiver Operating Characteristic (ROC) curves. 
+
+:book: __READING__: 
+- [CSL: Discriminant Analysis](https://allmodelsarewrong.github.io/discanalysis.html)
+- [CSL: Perfomance of Classifiers](https://allmodelsarewrong.github.io/classperformance.html)
+
+:speech_balloon: __TOPICS__:
+- __Discriminant Analysis__
+    + Probabilistic Discriminant Analysis
+    + Linear Discriminant Analysis (LDA)
+    + Quadratic Discriminant Analysis (QDA)
+    + Naive Bayes
+- __Performance of Classifiers__
+    + Measures of Classification Error
+    + Confusion Matrices
+    + Decision Rules
+    + ROC Curves
+
+
 
 
