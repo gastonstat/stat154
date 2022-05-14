@@ -1,4 +1,4 @@
-# Stat 154: Modern Statistical Prediction and Machine Learning
+# STAT 154 - Modern Statistical Prediction and Machine Learning
 
 - Description: This is an introductory course in statistical learning, with an emphasis on regression and classification methods (supervised learning), and a pinch of exploratory methods (unsupervised learning)
 - Instructor: Gaston Sanchez
