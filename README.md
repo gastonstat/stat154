@@ -16,6 +16,7 @@
 ## 1. Introduction and Preamble for PCA
 
 :card_index: __ABOUT__:
+
 We begin with some preliminary concepts and an overview of Statistical Learning methods. 
 Then we discuss the concept of data as a set of objects or individuals on which one or more variables have been 
 measured. More specifically, we do this from a decisive geometric perspective.
@@ -40,7 +41,9 @@ measured. More specifically, we do this from a decisive geometric perspective.
 
 ## 2. Principal Components Analysis (PCA)
 
-:card_index: __ABOUT__: Principal Components Analysis is one of the unsupervised learning topics of this course. 
+:card_index: __ABOUT__: 
+
+Principal Components Analysis is one of the unsupervised learning topics of this course. 
 Simply put, PCA allows us to study the systematic structure of a data set (of quantitative variables). 
 Although PCA can be approached from multiple angles, we focus on its geometric perspective.
 
@@ -71,7 +74,9 @@ Although PCA can be approached from multiple angles, we focus on its geometric p
 
 ## 3. Linear Regression: Introduction
 
-:card_index: __ABOUT__: After PCA we shift gears to supervised learning methods that have to do with predicting 
+:card_index: __ABOUT__: 
+
+After PCA we shift gears to supervised learning methods that have to do with predicting 
 a quantitative response. We begin with Linear Regression models which are the stepping stone for all supervised 
 learning methods. We will study the general regression framework by paying attention to the algebraic and 
 geometric aspects, while postponing the discussion of the learning elements for later (to be covered in Concepts of Learning Theory).
@@ -100,7 +105,9 @@ geometric aspects, while postponing the discussion of the learning elements for 
 
 ## 4. Concepts of Learning Theory (part 1)
 
-:card_index: __ABOUT__: In this part of the course we review the notion of Learning (from a supervised point of view) 
+:card_index: __ABOUT__: 
+
+In this part of the course we review the notion of Learning (from a supervised point of view) 
 and other related concepts: What are the conceptual pieces of a learning problem? What do we mean by learning? 
 How do we measure the learning ability of a machine/model? We will also talk about several aspects concerning 
 Learning theory: model performance, bias-variance tradeoff, overfitting, validation, and model selection.
@@ -130,7 +137,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 5. Concepts of Learning Theory (part 2)
 
-:card_index: __ABOUT__: In this part of the course we review the notion of Learning (from a supervised point of view) 
+:card_index: __ABOUT__: 
+
+In this part of the course we review the notion of Learning (from a supervised point of view) 
 and other related concepts: What are the conceptual pieces of a learning problem? What do we mean by learning? 
 How do we measure the learning ability of a machine/model? We will also talk about several aspects concerning 
 Learning theory: model performance, bias-variance tradeoff, overfitting, validation, and model selection.
@@ -160,7 +169,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 6. Linear Regression: Regularization Methods (part 1)
 
-:card_index: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
+:card_index: __ABOUT__: 
+
+Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
 
 <br>
 
@@ -184,7 +195,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 7. Linear Regression: Regularization Methods (part 2)
 
-:card_index: __ABOUT__: Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
+:card_index: __ABOUT__: 
+
+Having introduced the basic concepts of Learning Theory, we’ll expand our discussion of linear regression. The classic Least Squares solution for linear models is not always feasible or desirable. One main idea to get a better solution is by regularizing the regression coefficients. This can be done in a couple ways: 1) by transforming the predictors and reducing the dimensionality of the input space; or 2) by penalizing the criterion to be minimized via restricting the size of the regression coefficients.
 
 <br>
 
@@ -205,7 +218,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 8. Regression: Moving Beyond Linearity (time permitting)
 
-:card_index: __ABOUT__: Linear models can be quite useful but they have some limitations that force us to move beyond linearity. The main idea in this section is to relax the linearity assumption while still trying to obtain interpretable models. We’ll learn about various approaches that allow us to augment/replace the input variables with an array of transformations such as polynomial regression, step functions, splines, local regression, RBF, etc.
+:card_index: __ABOUT__: 
+
+Linear models can be quite useful but they have some limitations that force us to move beyond linearity. The main idea in this section is to relax the linearity assumption while still trying to obtain interpretable models. We’ll learn about various approaches that allow us to augment/replace the input variables with an array of transformations such as polynomial regression, step functions, splines, local regression, RBF, etc.
 
 <br>
 
@@ -233,7 +248,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 9. Introduction to Classification
 
-:card_index: __ABOUT__: The other major type of supervised learning problems covered in this course has to do with classification methods: predicting a qualitative response. We begin with Logistic Regression which provides a nice bridge between linear regression and classification ideas.
+:card_index: __ABOUT__: 
+
+The other major type of supervised learning problems covered in this course has to do with classification methods: predicting a qualitative response. We begin with Logistic Regression which provides a nice bridge between linear regression and classification ideas.
 
 <br>
 
@@ -258,7 +275,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 10. Discriminant Analysis (part 1)
 
-:card_index: __ABOUT__: An important kind of classification methods belong to a general framework known as Discriminant Analysis (DA). We start reviewing certain notions and formulas to measure total variation (or dispersion) in terms of a) variation within classes and b) variation between classes. Then we discuss Ronald Fisher's geometric approach commonly known as Canonical Discriminant Analysis. This method can be considered to be a classification with an unsupervised touch. 
+:card_index: __ABOUT__: 
+
+An important kind of classification methods belong to a general framework known as Discriminant Analysis (DA). We start reviewing certain notions and formulas to measure total variation (or dispersion) in terms of a) variation within classes and b) variation between classes. Then we discuss Ronald Fisher's geometric approach commonly known as Canonical Discriminant Analysis. This method can be considered to be a classification with an unsupervised touch. 
 
 <br>
 
@@ -283,7 +302,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 11. Discriminant Analysis (part 2) and Performance in Classification Methods
 
-:card_index: __ABOUT__: We continue the discussion of Discriminant Analysis (DA) with the so-called generative classification methods: Linear DA, Quadratic DA, and Naives Bayes. Then we move onto model performance with classification methods. Similar to what we did for regression models, we will discuss how to assess model performance in a classification setting. We will also talk about concepts like: confusion matrices, sensitivity and specificity, true positives and false positives, as well as Receiver Operating Characteristic (ROC) curves. 
+:card_index: __ABOUT__: 
+
+We continue the discussion of Discriminant Analysis (DA) with the so-called generative classification methods: Linear DA, Quadratic DA, and Naives Bayes. Then we move onto model performance with classification methods. Similar to what we did for regression models, we will discuss how to assess model performance in a classification setting. We will also talk about concepts like: confusion matrices, sensitivity and specificity, true positives and false positives, as well as Receiver Operating Characteristic (ROC) curves. 
 
 <br>
 
@@ -310,7 +331,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 12. Clustering Methods
 
-:card_index: __ABOUT__: Simply put, Clustering has to do with finding groups in data. This is the second unsupervised topic of the course, covering partition methods as well as hierarchical agglomerative techniques.
+:card_index: __ABOUT__: 
+
+Simply put, Clustering has to do with finding groups in data. This is the second unsupervised topic of the course, covering partition methods as well as hierarchical agglomerative techniques.
 
 <br>
 
@@ -342,7 +365,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 13. Tree-Based Methods (part 1)
 
-:card_index: __ABOUT__: We introduce decision trees, which are one the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
+:card_index: __ABOUT__: 
+
+We introduce decision trees, which are one the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
 
 <br>
 
@@ -367,7 +392,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 14. Tree-Based Methods (part 2)
 
-:card_index: __ABOUT__: We introduce decision trees, which are one of the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
+:card_index: __ABOUT__: 
+
+We introduce decision trees, which are one of the most visually atractive and intuitive supervised learning methods. In particular, we will focus our discussion around one kind of trees, the CART-style binary decision trees from the methodology developed in the early 1980s by Leo Breiman, Jerome Friedman, Charles Stone, and Richard Olshen.
 
 <br>
 
@@ -392,7 +419,9 @@ Learning theory: model performance, bias-variance tradeoff, overfitting, validat
 
 ## 15. Ensemble Methods and Aggregation
 
-:card_index: __ABOUT__: We finish the course with so-called Ensemble methods (i.e. aggregating individual learners) such as baging, boosting, and random forests.
+:card_index: __ABOUT__: 
+
+We finish the course with so-called Ensemble methods (i.e. aggregating individual learners) such as baging, boosting, and random forests.
 
 <br>
 
