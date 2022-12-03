@@ -19,6 +19,13 @@
     + ISL: An Introduction to Statistical Learning (by James et al, 2015)
     + ESL: The Elements of Statistical Learning (by Hastie et al, 2009)
 
+- __Prerequisites__: 
+    + Statistical and probability theory (e.g. Stat 135)
+    + Linear algebra (e.g. Math 54)
+    + Multivariable calculus (e.g. Math 53)
+    + Experience with some programming language (e.g. R, python, matlab)
+    + Recommended: discrete mathematics (e.g. Math 55).
+
 
 -----
 
