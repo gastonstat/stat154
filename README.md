@@ -1,12 +1,21 @@
 # STAT 154 - Modern Statistical Prediction and Machine Learning
 
-- Description: This is an introductory course in statistical learning, with an emphasis on regression and classification methods (supervised learning), and a pinch of exploratory methods (unsupervised learning)
-- Instructor: Gaston Sanchez
-- Lecture: 2 days p/week; 1.5 hours each day
-- Exams: one midterm exam, and final test
-- Primary textbook:
+- __Description__: This is an introductory course in statistical learning, with an emphasis on regression and classification methods (supervised learning), and a pinch of exploratory methods (unsupervised learning)
+
+- __Instructor__: Gaston Sanchez
+
+- __Lecture__: 2 days p/week; 1.5 hours each day
+
+- __Lab__: weekly computer lab sessions
+
+- __Assignments__: biweekly HW assignments
+
+- __Exams__: one midterm exam, and final test
+
+- __Primary textbook__:
     + [CSL: Concepts of Statistical Learning](https://allmodelsarewrong.github.io/) (by Sanchez and Marzban, 2019)
-- Secondary texts: 
+
+- __Secondary texts__: 
     + ISL: An Introduction to Statistical Learning (by James et al, 2015)
     + ESL: The Elements of Statistical Learning (by Hastie et al, 2009)
 
