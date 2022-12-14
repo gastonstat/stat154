@@ -4,9 +4,9 @@
 
 - __Instructor__: Gaston Sanchez
 
-- __Lecture__: 2 days p/week; 1.5 hours each day
+- __Lecture__: 3 hours of lecture per week
 
-- __Lab__: weekly computer lab sessions
+- __Lab__: 2 hours of computer lab sessions
 
 - __Assignments__: biweekly HW assignments
 
@@ -25,6 +25,8 @@
     + Multivariable calculus (e.g. Math 53)
     + Experience with some programming language (e.g. R, python, matlab)
     + Recommended: discrete mathematics (e.g. Math 55).
+
+- __LMS__: the specific learning resources of a given semester are shared in the Learning Management Sysment (LMS) approved by Campus authorities (e.g. bCourses, Canvas)
 
 
 -----
