@@ -2,7 +2,7 @@
 
 - __Description__: This is an introductory course in statistical learning, with an emphasis on regression and classification methods (supervised learning), and a pinch of exploratory methods (unsupervised learning)
 
-- __Instructor__: Gaston Sanchez
+- __Instructor__: [Gaston Sanchez](https://www.gastonsanchez.com)
 
 - __Lecture__: 3 hours of lecture per week
 
